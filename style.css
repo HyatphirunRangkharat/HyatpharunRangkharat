@@ -1,0 +1,96 @@
+* {
+  /* กำหนด ใหเกับเว็บไซต์ */
+  font-family: Arial, Helvetica, sans-serif;
+
+/* กำหนดรูป link */
+text-decoration: none;
+
+margin:0 ;
+padding: 0;
+box-sizing: 0;
+{
+  /*--------tadla style--------*/
+/*----ตั้งค่าการแสดงของตาราง----*/
+.styled-table {
+  width: 100;
+  border-color: collapse;
+  margin: 25px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+/* ตกแต่งตาราง */
+.styled-table th {
+background-color: blue;
+color: rgb(169, 169, 169);
+text-align: center;
+padding: 15px 15px;
+}
+/* ตกแต่งแถวของตาราง */
+.styled-table{
+font-size: 14px;
+text-align: center;
+padding: 8px 12px;
+/* border: 1 solid */
+}
+.styled-table tr :hover {
+  background-color: aliceblue;
+}
+/* ตกแต่งเส้นตาราง */
+.styled-table, .styled-table th, .styled-table td {
+  border: rgb(169, 169, 169);
+}
+
+/*------menu------- */
+.container{
+  max-width: 114px;
+  margin: 0 un;
+}
+.nav{
+  background-color: #474849;
+  overflow: hidden;
+}
+.nav-con{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 10px;
+  padding: 14px 16px;
+}
+.menu{
+  display: flex;
+  overflow: hidden;
+}
+/* nropdownmenu */
+/* navbar contatner */
+.navbar{
+  overflow: hidden;
+  background-color: azure;
+
+}
+.navbar a{
+  font: 1em sans-serif;
+  font-size: 14px;
+  color: #ffff;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+/* dropdown-bnt */
+.dropd .dropdtn{
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: #ffff;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdow:hover .dropdtn{
+  background-color: #f41c1c;
+}
+.dropdow:-content{
+  display: none;
+  position: absolute;
+  background-color: #ffff;
+  min-width: 160px;
+  box-shadow: ;
+}
